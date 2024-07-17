@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+span, a, label{
+    display: inline-block;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.home{
+    padding: 0 160px;
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+}
+.nav{
+    padding: 65px 50px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 27px;
+}
+.logo{
+    width: 200px;
+}
+.social {
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+    margin-left: 24px;
+}
+.homecontent{
+    padding: 100px 300px;
+    text-align: center;
+    padding-bottom: 240px;
+}
+.hometittleZ{
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.homelead{
+    font-size: 27px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.try{
+    text-decoration: none;
+    background-color: black;
+    font-size: 20px;
+    padding: 11px 50px;
+    color: teal;
+    border-radius: 41px;
+    text-transform: capitalize;
+}
+.bars{
+    align-items: center;
+    font-size: 80px;
+    color: dodgerblue;
+}
+.video{
+    max-width: 900px;
+    height: 500px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: dodgerblue;
+    border-radius: 24px;
+    background-image: url(photo_2024-06-22_15-33-18.jpg);
+    background-size: cover;
+}
